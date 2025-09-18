@@ -4,19 +4,26 @@
 __pycache__
 .ipynb_checkpoints
 
+*.pth
+
 input_data/test_data.npy
 input_data/label.npy
 input_data/test_label.npy
 input_data/WIDE12H_bin2_2arcmin_kappa.npy
 input_data/WIDE12H_bin2_2arcmin_mask.npy
 
+input_data/label_train.npy
+input_data/label_val.npy
+input_data/noisy_kappa_train.npy
+input_data/noisy_kappa_val.npy
+
 reference_data/label.npy
 reference_data/test_label.npy
 reference_data/label_test.npy
 
+*.png
 
-
-input_data.zip
+*.zip
 
 PowerSpectrumAnalysis.ipynb
 generate_dummy_submission.py
